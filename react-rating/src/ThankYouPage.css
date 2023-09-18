@@ -1,0 +1,55 @@
+
+.very-big-container{
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: black;
+}
+.display-none{
+  display: none;
+}
+
+.thank-you-card {
+  width: 100%;
+  max-width: 22rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  background-color: #212832;
+  padding: 2rem 2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+}
+svg{
+  justify-self: flex-end;
+  cursor: pointer;
+}
+svg:active{
+ color: cyan;
+}
+picture {
+  display: grid;
+  place-items: center;
+}
+img {
+  max-width: 8rem;
+}
+.rating-result {
+  color: hsl(25, 97%, 53%);
+  font-size: 0.750rem;
+  background-color: #272f38;
+  justify-self: center;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2rem;
+}
+.thank-you{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.t-description{
+    text-align: center;
+    font-size: .730rem;
+    color: #505761;
+}

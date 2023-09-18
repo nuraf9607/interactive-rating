@@ -1,0 +1,65 @@
+.rating-card {
+  width: 100%;
+  max-width: 22rem;
+  display: grid;
+  align-items: center;
+  gap: 0.7rem;
+  background-color: #212832;
+  padding: 2rem 2rem;
+  border-radius: 1.2rem;
+  /* justify-items: center; */
+}
+.star {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  background-color: #272f38;
+  justify-self: self-start;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 1.5rem;
+  text-align: start;
+}
+.description {
+  text-align: start;
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+.radio-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+.radio {
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  background-color: #272f38;
+  cursor: pointer;
+}
+.radio-selected{
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+}
+.radio:focus-visible {
+  background-color: #7b8897;
+}
+.radio:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.submit-button {
+  border: none;
+  padding-block: 0.3rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
